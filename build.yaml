@@ -17,3 +17,7 @@ include:
     shield: kyria_left
   - board: nice_nano@2.0.0
     shield: kyria_right
+  - board: nice_nano//zmk@2
+    shield: kyria_rev2_left
+  - board: nice_nano//zmk@2
+    shield: kyria_rev2_right
