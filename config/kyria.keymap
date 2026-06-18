@@ -43,7 +43,7 @@
 		number_layer{
 
 				bindings = <
-	&kp EQUAL   &kp EXCL &kp AT &kp LPAR &kp RPAR &kp HASH                                                &kp PLUS &kp N7  &kp N8     &kp N9   &kp P    &kp UNDER
+	&kp EQUAL   &kp EXCL &kp AT &kp LPAR &kp RPAR &kp GRAVE                                                &kp PLUS &kp N7  &kp N8     &kp N9   &kp P    &kp UNDER
 	&kp BSPC   &kp MINUS &kp EQUAL &kp LBRC &kp RBRC &kp PLUS                                                &kp MINUS &kp N4  &kp N5     &kp N6   &kp SEMI &kp SQT
 	&kp LSHFT &kp PRCNT &kp CARET &kp LBKT &kp RBKT &kp TILDE &mo NUM &lt FN ESC        &bt BT_PRV &bt BT_NXT &kp EQUAL &kp N1  &kp N2 &kp N3 &kp FSLH &kp RSHFT
 	                 &kp LGUI &kp HOME &kp END &kp SPACE &kp LCTRL        &kp DEL  &kp RET  &kp UP &kp N0 &kp RSHFT
