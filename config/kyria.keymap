@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
 
 &left_encoder { steps = <40> /* Change this to your encoder's number of detents times 2 */; };
 &right_encoder { steps = <40> /* Change this to your encoder's number of detents times 2 */; };
@@ -53,7 +54,7 @@
 	function_layer{
 
                                 bindings = <
-        &kp EQUAL   &kp EXCL &kp AT &bt BT_CLR &bt BT_PRV &bt BT_NXT                                                &kp PLUS &mt F17 F7  &mt F18 F8     &mt F19 F9   &kp P    &kp UNDER
+        &kp EQUAL   &kp EXCL &out OUT_TOG &bt BT_CLR &bt BT_PRV &bt BT_NXT                                                &kp PLUS &mt F17 F7  &mt F18 F8     &mt F19 F9   &kp P    &kp UNDER
         &kp BSPC   &kp MINUS &kp EQUAL &kp LBRC &kp RBRC &kp PLUS                                                &kp MINUS &mt F14 F4  &mt F15 F5     &mt F16 F6   &kp SEMI &kp SQT
         &kp LSHFT &kp PRCNT &kp CARET &kp LBKT &kp RBKT &kp TILDE &mo NUM &lt FN ESC        &bt BT_PRV &bt BT_NXT &kp EQUAL &mt F11 F1  &mt F12 F2 &mt F13 F3 &kp FSLH &kp RSHFT
                          &kp LGUI &kp LEFT &kp RIGHT &kp SPACE &kp LCTRL        &kp DEL  &kp RET  &kp UP &mt F20 F10 &kp RSHFT
