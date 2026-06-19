@@ -15,13 +15,7 @@
 include:
   - board: nice_nano@2.0.0
     shield: kyria_rev2_left
-    snippet: zmk-usb-logging
+    #snippet: zmk-usb-logging
   - board: nice_nano@2.0.0
     shield: kyria_rev2_right
-    snippet: zmk-usb-logging
-#  - board: nice_nano//zmk@2
-#    shield: kyria_rev2_left
-#    snippet: zmk-usb-logging
-#  - board: nice_nano//zmk@2
-#    shield: kyria_rev2_right
-#    snippet: zmk-usb-logging
+    #snippet: zmk-usb-logging
